@@ -6,11 +6,18 @@
 // Difficulty: easy.
 
 var palindrome = function (string) {
-    var reversed = " ";
+    var reversed = "";
     for ( i = string.length ; i >= 0 ; i-- ) {
         reversed += string.charAt(i)
     }
-    return reversed;
+    console.log(string)
+    console.log(reversed)
+
+    if (reversed === string) {
+        return true;
+    } else {
+        return false;
+    }
 };
 
-console.log(palindrome("mañana gödel"));
+console.log(palindrome("mañana gödel ledög anañam"));
