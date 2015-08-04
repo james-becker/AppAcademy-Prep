@@ -14,4 +14,4 @@ var timeConversion = function (minutes) {
     return hh + ":" + mm;
 };
 
-console.log(timeConversion(241))
+console.log(timeConversion(245))
